@@ -1,0 +1,73 @@
+Loading datasets...
+
+
+Training models  n = [3, 5, 7],  sets {T1, T2, T3}
+
+  Training 3-gram model on T1...
+  Vocabulary size    : 62,157
+  Unique n-gram types: 574,649
+
+  Training 5-gram model on T1...
+  Vocabulary size    : 62,157
+  Unique n-gram types: 1,110,609
+
+  Training 7-gram model on T1...
+  Vocabulary size    : 62,157
+  Unique n-gram types: 1,432,792
+
+  Training 3-gram model on T2...
+  Vocabulary size    : 89,931
+  Unique n-gram types: 873,946
+
+  Training 5-gram model on T2...
+  Vocabulary size    : 89,931
+  Unique n-gram types: 1,746,926
+
+  Training 7-gram model on T2...
+  Vocabulary size    : 89,931
+  Unique n-gram types: 2,299,868
+
+  Training 3-gram model on T3...
+  Vocabulary size    : 113,245
+  Unique n-gram types: 1,140,745
+
+  Training 5-gram model on T3...
+  Vocabulary size    : 113,245
+  Unique n-gram types: 2,332,975
+
+  Training 7-gram model on T3...
+  Vocabulary size    : 113,245
+  Unique n-gram types: 3,115,560
+
+
+Alpha tuning  k = [0.001, 0.01, 0.1, 0.5, 1.0]  on validation set
+
+
+Validation Perplexity:
+Config             0.001      0.01       0.1       0.5       1.0
+----------------------------------------------------------------
+T1 n=3          371.2182  576.7748 1264.5674 2614.9988 3672.7329
+T1 n=5         2402.3735 3872.9803 7407.810512376.611315365.6539
+T1 n=7         6409.9457 9146.998914134.313219815.689422849.2310
+T2 n=3          308.3625  519.4947 1235.0087 2700.1334 3885.2743
+T2 n=5         2086.8660 3737.9073 7955.989614284.732518255.6362
+T2 n=7         6074.4583 9577.674716343.039024411.436328835.8904
+T3 n=3          265.9603  472.8153 1186.0629 2691.4210 3936.0168
+T3 n=5         1809.6879 3500.3182 8055.928415247.154419905.2526
+T3 n=7         5650.0394 9556.830417490.140327330.372932851.4480
+
+Best config: n=3, training set=T3, k=0.001
+
+
+Best model:
+  Provided test perplexity    : 429.4338
+  Self-created test perplexity: 312.3492
+
+
+Generating JSON output files...
+  Saved: ./datasets/ngram_dataset/results-provided.json
+  Saved: ./datasets/ngram_dataset/results-test.json
+
+Output files:
+  ./datasets/ngram_dataset/results-provided.json
+  ./datasets/ngram_dataset/results-selfcreated.json
