@@ -66,7 +66,6 @@ val_summary.txt      — 1,000 validation summaries
 metadata.json        — full filter statistics and per-repo mining log
 ```
 
-### Reference
 ## Dependencies and Installation
 Download the google drive folder here:
 https://drive.google.com/drive/u/2/folders/1TXo24H-gxxF9ZPnXIog5yYQHh1Hlv1YI
