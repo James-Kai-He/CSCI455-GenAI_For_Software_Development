@@ -75,10 +75,11 @@ Download assignment-2-LSTM.ipynb and place it in the folder
 Download the models folder from here and place it in the folder: https://drive.google.com/drive/folders/150xbvYtyuUNsd8hefjiZXqa_eFY8f67K
 
 The folder structure should look like this:
-Project/
-├── assignment-2-LSTM.ipynd
-├── dataset
-│   └── test_dataset_tokenized.csv
+
+Project/ \
+├── assignment-2-LSTM.ipynd \
+├── dataset \
+│   └── test_dataset_tokenized.csv \
 └── Models Folder
 
 **IMPORTANT**
