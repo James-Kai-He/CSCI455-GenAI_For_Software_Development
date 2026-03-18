@@ -82,6 +82,8 @@ Project/ \
 │   └── test_dataset_tokenized.csv \
 └── Models Folder
 
+Create a venv with python 3.10 and then activate it.
+
 **IMPORTANT**
 Put your github access token in
 
