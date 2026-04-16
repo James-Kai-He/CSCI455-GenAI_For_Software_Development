@@ -1,3 +1,5 @@
-Assignments for CSCI455
+# CSCI455 GenAI For Software Development
 
-Go to each specific assignment to see further details.
+## A1: Recommending Code Tokens via N-gram Models
+
+## A2: Summarizing code via LSTM models
